@@ -8,6 +8,7 @@
 </head>
 <body>
     <header class="header">
+        <img src="./img/logo-ford-256.png" alt="Ford Logo" class="logo">
         <nav class="nav">
             <ul class="nav-list">
                 <li><a href="index.html" class="nav-link">Home</a></li>
@@ -18,10 +19,7 @@
     </header>
     <main class="main">
         <section class="video-secao">
-            <video controls class="video">
-                <source src="https://www.youtube.com/watch?v=vQsryuNmsL0" type="video/mp4">
-                Seu navegador não suporta vídeos.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vQsryuNmsL0?si=UjTZIUtgCxeqK8Bv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p class="video-text">Confira o vídeo promocional do novo Ford.</p>
         </section>
         <div class="galeria">
@@ -36,13 +34,18 @@
                 <th>Comparar</th>
             </tr>
             <tr>
-                <td>Ford X</td>
+                <td>Teste X</td>
                 <td>R$ 100.000</td>
                 <td><input type="checkbox"></td>
             </tr>
             <tr>
-                <td>Ford Y</td>
+                <td>Teste Y</td>
                 <td>R$ 120.000</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Teste Z</td>
+                <td>R$ 110.000</td>
                 <td><input type="checkbox"></td>
             </tr>
         </table>
@@ -50,17 +53,20 @@
     <footer class="footer">
         
         <div class="social">
-            <a href="#" class="social-link">Facebook
+            <p class="social-link">Redes sociais:</p>
+            <a href="#" class="social-link">
                 <img src="./img/facebook-50.png" alt="">
             </a>
-            <a href="#" class="social-link">Instagram
+            <a href="#" class="social-link">
                 <img src="./img/instagram-logo-50.png" alt="">
             </a>
-            <a href="#" class="social-link">Youtube
+            <a href="#" class="social-link">
                 <img src="./img/youtube-squared-50.png" alt="">
             </a>
-            <img src="./img/ford-96.png" alt="Logo Ford">
         </div>
+        <p class="social-link">&copy; Ford 2025</p>
+        <img class="logofordfooter" src="./img/ford-96.png" alt="Logo Ford">
+        
     </footer>
 </body>
 </html>
