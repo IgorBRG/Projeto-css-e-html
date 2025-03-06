@@ -1,0 +1,151 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #0033a0;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #001f5b;
+    border-radius: 5px;
+}
+
+.main {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+}
+
+.home-titulo {
+    font-size: 28px;
+    color: #0033a0;
+    margin-bottom: 20px;
+}
+
+.home-imagem {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.home-texto {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.footer {
+    background-color: #0033a0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-link img {
+    width: 24px;
+    height: 24px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.galeria-img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.form-input, .form-textoarea, .form-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-butao {
+    background-color: #0033a0;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-button:hover {
+    background-color: #001f5b;
+    transform: scale(1.05);
+}
